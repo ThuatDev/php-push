@@ -1,0 +1,11 @@
+Query Builder trong Laravel
+
+$allUsers = DB::table('users')->select('name', 'email')->get();
+
+=> SELECT name, email FROM users
+
+$object = new Class
+
+$object1 = $object->method1()
+
+$object2 = $object2->method2()
